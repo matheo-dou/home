@@ -23,14 +23,14 @@ a.button {
 }
 
 ul {
-    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
     padding: 0 10px;
     list-style: none;
     margin: 0;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-content: space-around;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
   
 }
 
