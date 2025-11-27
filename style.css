@@ -21,3 +21,16 @@ a.button {
     background-color: buttonface;
     text-decoration: none;
 }
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    list-style: none;
+    margin: 0;
+    flex-wrap: wrap; 
+}
+
+li {
+    margin: 2px 3px;
+}
