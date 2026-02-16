@@ -1,46 +1,59 @@
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    background: #1a1a1a; 
+    font-family: sans-serif;
+    color:White;
 }
 
-.container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 
-a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    color: buttontext;
-    background-color: buttonface;
-    text-decoration: none;
+.container { 
+    background: #2c2c2c; 
+    padding: 40px; 
+    border-radius: 20px; 
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6); 
+    width: 100%;
+    max-width: 320px; 
+    text-align: center;
 }
 
-ul {
-    display: flex;
-    justify-content: flex-start;
-    padding: 0 10px;
-    list-style: none;
-    margin: 0;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  
+h1 { color: #2ecc71; margin-bottom: 30px; font-size: 28px; }
+
+h2 { color: #2ecc70 !important; margin-bottom: 30px; font-size: 28px; }
+
+h3 { color: #2ecc69; margin-bottom: 30px; font-size: 28px; }
+
+input { 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 15px; 
+    padding: 12px; 
+    border-radius: 8px; 
+    background: #333; 
+    color: white; 
+    border: 1px solid #444; 
+    box-sizing: border-box; 
 }
 
-li {
-    margin: 2px 3px;
+button { 
+    width: 100%; 
+    cursor: pointer; 
+    padding: 14px; 
+    border: none; 
+    color: white; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    font-size: 16px;
+    transition: transform 0.2s;
 }
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    padding: 5px 10px;
-    transition: color 0.3s, border-bottom 0.3s;
-}
+button:active { transform: scale(0.98); }
+.btn { border-radius: 8px; color: white; }
+.btn-login { background: #2ecc71; margin-bottom: 10px; border-radius: 8px; color: white;}
+.btn-register { background: #3498db; border-radius: 8px; color: white;}
+.msg { color: #f1c40f; margin-bottom: 20px; font-size: 0.9em; border-radius: 8px; color: white;}
